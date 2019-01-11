@@ -14,6 +14,15 @@
 		480484F221C1180400C1D46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480484F021C1180400C1D46D /* LaunchScreen.storyboard */; };
 		480484FD21C1180500C1D46D /* denpoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480484FC21C1180500C1D46D /* denpoTests.swift */; };
 		4804850821C1180500C1D46D /* denpoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804850721C1180500C1D46D /* denpoUITests.swift */; };
+		4804851621C11A7600C1D46D /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804851521C11A7600C1D46D /* firstViewController.swift */; };
+		4804851821C11A8500C1D46D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804851721C11A8500C1D46D /* secondViewController.swift */; };
+		4804851A21C11AA200C1D46D /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804851921C11AA200C1D46D /* thirdViewController.swift */; };
+		4804851D21C11C9200C1D46D /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804851B21C11C9200C1D46D /* myTableViewCell.swift */; };
+		4804851E21C11C9200C1D46D /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4804851C21C11C9200C1D46D /* myTableViewCell.xib */; };
+		4804852021C120EF00C1D46D /* スクリーンショット.png in Resources */ = {isa = PBXBuildFile; fileRef = 4804851F21C120EE00C1D46D /* スクリーンショット.png */; };
+		48C31AC321DF2AF9006CA3F8 /* po.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC221DF2AF9006CA3F8 /* po.png */; };
+		48C31AC521DF2C0B006CA3F8 /* pohaikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC421DF2C0B006CA3F8 /* pohaikei.png */; };
+		48C31AC721E1BB51006CA3F8 /* denpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC621E1BB51006CA3F8 /* denpo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		4804850321C1180500C1D46D /* denpoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = denpoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4804850721C1180500C1D46D /* denpoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denpoUITests.swift; sourceTree = "<group>"; };
 		4804850921C1180500C1D46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4804851521C11A7600C1D46D /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		4804851721C11A8500C1D46D /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		4804851921C11AA200C1D46D /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		4804851B21C11C9200C1D46D /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		4804851C21C11C9200C1D46D /* myTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
+		4804851F21C120EE00C1D46D /* スクリーンショット.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット.png"; sourceTree = "<group>"; };
+		48C31AC221DF2AF9006CA3F8 /* po.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = po.png; sourceTree = SOURCE_ROOT; };
+		48C31AC421DF2C0B006CA3F8 /* pohaikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pohaikei.png; sourceTree = SOURCE_ROOT; };
+		48C31AC621E1BB51006CA3F8 /* denpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = denpo.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,21 @@
 		480484E621C1180000C1D46D /* denpo */ = {
 			isa = PBXGroup;
 			children = (
+				48C31AC621E1BB51006CA3F8 /* denpo.png */,
+				48C31AC421DF2C0B006CA3F8 /* pohaikei.png */,
+				48C31AC221DF2AF9006CA3F8 /* po.png */,
+				4804851F21C120EE00C1D46D /* スクリーンショット.png */,
 				480484E721C1180000C1D46D /* AppDelegate.swift */,
-				480484E921C1180000C1D46D /* ViewController.swift */,
-				480484EB21C1180000C1D46D /* Main.storyboard */,
 				480484EE21C1180400C1D46D /* Assets.xcassets */,
 				480484F021C1180400C1D46D /* LaunchScreen.storyboard */,
 				480484F321C1180400C1D46D /* Info.plist */,
+				480484EB21C1180000C1D46D /* Main.storyboard */,
+				480484E921C1180000C1D46D /* ViewController.swift */,
+				4804851521C11A7600C1D46D /* firstViewController.swift */,
+				4804851721C11A8500C1D46D /* secondViewController.swift */,
+				4804851921C11AA200C1D46D /* thirdViewController.swift */,
+				4804851B21C11C9200C1D46D /* myTableViewCell.swift */,
+				4804851C21C11C9200C1D46D /* myTableViewCell.xib */,
 			);
 			path = denpo;
 			sourceTree = "<group>";
@@ -230,6 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				480484F221C1180400C1D46D /* LaunchScreen.storyboard in Resources */,
+				48C31AC521DF2C0B006CA3F8 /* pohaikei.png in Resources */,
+				48C31AC721E1BB51006CA3F8 /* denpo.png in Resources */,
+				4804851E21C11C9200C1D46D /* myTableViewCell.xib in Resources */,
+				48C31AC321DF2AF9006CA3F8 /* po.png in Resources */,
+				4804852021C120EF00C1D46D /* スクリーンショット.png in Resources */,
 				480484EF21C1180400C1D46D /* Assets.xcassets in Resources */,
 				480484ED21C1180000C1D46D /* Main.storyboard in Resources */,
 			);
@@ -256,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4804851821C11A8500C1D46D /* secondViewController.swift in Sources */,
 				480484EA21C1180000C1D46D /* ViewController.swift in Sources */,
+				4804851A21C11AA200C1D46D /* thirdViewController.swift in Sources */,
 				480484E821C1180000C1D46D /* AppDelegate.swift in Sources */,
+				4804851621C11A7600C1D46D /* firstViewController.swift in Sources */,
+				4804851D21C11C9200C1D46D /* myTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
