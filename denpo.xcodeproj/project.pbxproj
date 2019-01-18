@@ -20,6 +20,10 @@
 		4804851D21C11C9200C1D46D /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804851B21C11C9200C1D46D /* myTableViewCell.swift */; };
 		4804851E21C11C9200C1D46D /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4804851C21C11C9200C1D46D /* myTableViewCell.xib */; };
 		4804852021C120EF00C1D46D /* スクリーンショット.png in Resources */ = {isa = PBXBuildFile; fileRef = 4804851F21C120EE00C1D46D /* スクリーンショット.png */; };
+		48731D4621F1E18C00BDD196 /* settei.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4521F1E18C00BDD196 /* settei.png */; };
+		48731D4821F1E43700BDD196 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4721F1E43700BDD196 /* friends.png */; };
+		48731D4A21F1E59E00BDD196 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4921F1E59E00BDD196 /* mail.png */; };
+		48731D4C21F1ECBA00BDD196 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4B21F1ECBA00BDD196 /* home.png */; };
 		48C31AC321DF2AF9006CA3F8 /* po.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC221DF2AF9006CA3F8 /* po.png */; };
 		48C31AC521DF2C0B006CA3F8 /* pohaikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC421DF2C0B006CA3F8 /* pohaikei.png */; };
 		48C31AC721E1BB51006CA3F8 /* denpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC621E1BB51006CA3F8 /* denpo.png */; };
@@ -62,6 +66,10 @@
 		4804851B21C11C9200C1D46D /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 		4804851C21C11C9200C1D46D /* myTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
 		4804851F21C120EE00C1D46D /* スクリーンショット.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット.png"; sourceTree = "<group>"; };
+		48731D4521F1E18C00BDD196 /* settei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settei.png; sourceTree = SOURCE_ROOT; };
+		48731D4721F1E43700BDD196 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = SOURCE_ROOT; };
+		48731D4921F1E59E00BDD196 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = SOURCE_ROOT; };
+		48731D4B21F1ECBA00BDD196 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = SOURCE_ROOT; };
 		48C31AC221DF2AF9006CA3F8 /* po.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = po.png; sourceTree = SOURCE_ROOT; };
 		48C31AC421DF2C0B006CA3F8 /* pohaikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pohaikei.png; sourceTree = SOURCE_ROOT; };
 		48C31AC621E1BB51006CA3F8 /* denpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = denpo.png; sourceTree = SOURCE_ROOT; };
@@ -115,6 +123,10 @@
 		480484E621C1180000C1D46D /* denpo */ = {
 			isa = PBXGroup;
 			children = (
+				48731D4B21F1ECBA00BDD196 /* home.png */,
+				48731D4921F1E59E00BDD196 /* mail.png */,
+				48731D4721F1E43700BDD196 /* friends.png */,
+				48731D4521F1E18C00BDD196 /* settei.png */,
 				48C31AC621E1BB51006CA3F8 /* denpo.png */,
 				48C31AC421DF2C0B006CA3F8 /* pohaikei.png */,
 				48C31AC221DF2AF9006CA3F8 /* po.png */,
@@ -262,6 +274,10 @@
 				4804851E21C11C9200C1D46D /* myTableViewCell.xib in Resources */,
 				48C31AC321DF2AF9006CA3F8 /* po.png in Resources */,
 				4804852021C120EF00C1D46D /* スクリーンショット.png in Resources */,
+				48731D4A21F1E59E00BDD196 /* mail.png in Resources */,
+				48731D4621F1E18C00BDD196 /* settei.png in Resources */,
+				48731D4C21F1ECBA00BDD196 /* home.png in Resources */,
+				48731D4821F1E43700BDD196 /* friends.png in Resources */,
 				480484EF21C1180400C1D46D /* Assets.xcassets in Resources */,
 				480484ED21C1180000C1D46D /* Main.storyboard in Resources */,
 			);
