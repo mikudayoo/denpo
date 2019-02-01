@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		480484E821C1180000C1D46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480484E721C1180000C1D46D /* AppDelegate.swift */; };
-		480484EA21C1180000C1D46D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480484E921C1180000C1D46D /* ViewController.swift */; };
 		480484ED21C1180000C1D46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480484EB21C1180000C1D46D /* Main.storyboard */; };
 		480484EF21C1180400C1D46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480484EE21C1180400C1D46D /* Assets.xcassets */; };
 		480484F221C1180400C1D46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480484F021C1180400C1D46D /* LaunchScreen.storyboard */; };
@@ -19,11 +18,19 @@
 		4804851A21C11AA200C1D46D /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804851921C11AA200C1D46D /* thirdViewController.swift */; };
 		4804851D21C11C9200C1D46D /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804851B21C11C9200C1D46D /* myTableViewCell.swift */; };
 		4804851E21C11C9200C1D46D /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4804851C21C11C9200C1D46D /* myTableViewCell.xib */; };
-		4804852021C120EF00C1D46D /* スクリーンショット.png in Resources */ = {isa = PBXBuildFile; fileRef = 4804851F21C120EE00C1D46D /* スクリーンショット.png */; };
 		48731D4621F1E18C00BDD196 /* settei.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4521F1E18C00BDD196 /* settei.png */; };
 		48731D4821F1E43700BDD196 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4721F1E43700BDD196 /* friends.png */; };
 		48731D4A21F1E59E00BDD196 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4921F1E59E00BDD196 /* mail.png */; };
 		48731D4C21F1ECBA00BDD196 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D4B21F1ECBA00BDD196 /* home.png */; };
+		48731D4E21F9D8AC00BDD196 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48731D4D21F9D8AC00BDD196 /* homeViewController.swift */; };
+		48731D5021F9D8BA00BDD196 /* friendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48731D4F21F9D8BA00BDD196 /* friendsViewController.swift */; };
+		48731D5221F9D8C900BDD196 /* setupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48731D5121F9D8C900BDD196 /* setupViewController.swift */; };
+		48731D582204509E00BDD196 /* greenbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D532204509C00BDD196 /* greenbutton.png */; };
+		48731D592204509E00BDD196 /* navybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D542204509D00BDD196 /* navybutton.png */; };
+		48731D5A2204509E00BDD196 /* redbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D552204509D00BDD196 /* redbutton.png */; };
+		48731D5B2204509E00BDD196 /* purplebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D562204509D00BDD196 /* purplebutton.png */; };
+		48731D5C2204509E00BDD196 /* pinkbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 48731D572204509E00BDD196 /* pinkbutton.png */; };
+		48731D5E2204570B00BDD196 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48731D5D2204570B00BDD196 /* GoogleService-Info.plist */; };
 		48C31AC321DF2AF9006CA3F8 /* po.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC221DF2AF9006CA3F8 /* po.png */; };
 		48C31AC521DF2C0B006CA3F8 /* pohaikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC421DF2C0B006CA3F8 /* pohaikei.png */; };
 		48C31AC721E1BB51006CA3F8 /* denpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C31AC621E1BB51006CA3F8 /* denpo.png */; };
@@ -49,7 +56,6 @@
 /* Begin PBXFileReference section */
 		480484E421C1180000C1D46D /* denpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		480484E721C1180000C1D46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		480484E921C1180000C1D46D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		480484EC21C1180000C1D46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		480484EE21C1180400C1D46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		480484F121C1180400C1D46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,11 +71,19 @@
 		4804851921C11AA200C1D46D /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		4804851B21C11C9200C1D46D /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 		4804851C21C11C9200C1D46D /* myTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
-		4804851F21C120EE00C1D46D /* スクリーンショット.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット.png"; sourceTree = "<group>"; };
 		48731D4521F1E18C00BDD196 /* settei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settei.png; sourceTree = SOURCE_ROOT; };
 		48731D4721F1E43700BDD196 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = SOURCE_ROOT; };
 		48731D4921F1E59E00BDD196 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = SOURCE_ROOT; };
 		48731D4B21F1ECBA00BDD196 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = SOURCE_ROOT; };
+		48731D4D21F9D8AC00BDD196 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		48731D4F21F9D8BA00BDD196 /* friendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsViewController.swift; sourceTree = "<group>"; };
+		48731D5121F9D8C900BDD196 /* setupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setupViewController.swift; sourceTree = "<group>"; };
+		48731D532204509C00BDD196 /* greenbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbutton.png; sourceTree = "<group>"; };
+		48731D542204509D00BDD196 /* navybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navybutton.png; sourceTree = "<group>"; };
+		48731D552204509D00BDD196 /* redbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton.png; sourceTree = "<group>"; };
+		48731D562204509D00BDD196 /* purplebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purplebutton.png; sourceTree = "<group>"; };
+		48731D572204509E00BDD196 /* pinkbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkbutton.png; sourceTree = "<group>"; };
+		48731D5D2204570B00BDD196 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		48C31AC221DF2AF9006CA3F8 /* po.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = po.png; sourceTree = SOURCE_ROOT; };
 		48C31AC421DF2C0B006CA3F8 /* pohaikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pohaikei.png; sourceTree = SOURCE_ROOT; };
 		48C31AC621E1BB51006CA3F8 /* denpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = denpo.png; sourceTree = SOURCE_ROOT; };
@@ -123,6 +137,11 @@
 		480484E621C1180000C1D46D /* denpo */ = {
 			isa = PBXGroup;
 			children = (
+				48731D532204509C00BDD196 /* greenbutton.png */,
+				48731D542204509D00BDD196 /* navybutton.png */,
+				48731D572204509E00BDD196 /* pinkbutton.png */,
+				48731D562204509D00BDD196 /* purplebutton.png */,
+				48731D552204509D00BDD196 /* redbutton.png */,
 				48731D4B21F1ECBA00BDD196 /* home.png */,
 				48731D4921F1E59E00BDD196 /* mail.png */,
 				48731D4721F1E43700BDD196 /* friends.png */,
@@ -130,18 +149,20 @@
 				48C31AC621E1BB51006CA3F8 /* denpo.png */,
 				48C31AC421DF2C0B006CA3F8 /* pohaikei.png */,
 				48C31AC221DF2AF9006CA3F8 /* po.png */,
-				4804851F21C120EE00C1D46D /* スクリーンショット.png */,
 				480484E721C1180000C1D46D /* AppDelegate.swift */,
 				480484EE21C1180400C1D46D /* Assets.xcassets */,
 				480484F021C1180400C1D46D /* LaunchScreen.storyboard */,
 				480484F321C1180400C1D46D /* Info.plist */,
 				480484EB21C1180000C1D46D /* Main.storyboard */,
-				480484E921C1180000C1D46D /* ViewController.swift */,
 				4804851521C11A7600C1D46D /* firstViewController.swift */,
+				48731D4D21F9D8AC00BDD196 /* homeViewController.swift */,
 				4804851721C11A8500C1D46D /* secondViewController.swift */,
 				4804851921C11AA200C1D46D /* thirdViewController.swift */,
+				48731D4F21F9D8BA00BDD196 /* friendsViewController.swift */,
+				48731D5121F9D8C900BDD196 /* setupViewController.swift */,
 				4804851B21C11C9200C1D46D /* myTableViewCell.swift */,
 				4804851C21C11C9200C1D46D /* myTableViewCell.xib */,
+				48731D5D2204570B00BDD196 /* GoogleService-Info.plist */,
 			);
 			path = denpo;
 			sourceTree = "<group>";
@@ -269,17 +290,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				480484F221C1180400C1D46D /* LaunchScreen.storyboard in Resources */,
+				48731D5B2204509E00BDD196 /* purplebutton.png in Resources */,
 				48C31AC521DF2C0B006CA3F8 /* pohaikei.png in Resources */,
 				48C31AC721E1BB51006CA3F8 /* denpo.png in Resources */,
 				4804851E21C11C9200C1D46D /* myTableViewCell.xib in Resources */,
 				48C31AC321DF2AF9006CA3F8 /* po.png in Resources */,
-				4804852021C120EF00C1D46D /* スクリーンショット.png in Resources */,
+				48731D592204509E00BDD196 /* navybutton.png in Resources */,
 				48731D4A21F1E59E00BDD196 /* mail.png in Resources */,
 				48731D4621F1E18C00BDD196 /* settei.png in Resources */,
 				48731D4C21F1ECBA00BDD196 /* home.png in Resources */,
+				48731D5A2204509E00BDD196 /* redbutton.png in Resources */,
 				48731D4821F1E43700BDD196 /* friends.png in Resources */,
+				48731D5E2204570B00BDD196 /* GoogleService-Info.plist in Resources */,
 				480484EF21C1180400C1D46D /* Assets.xcassets in Resources */,
 				480484ED21C1180000C1D46D /* Main.storyboard in Resources */,
+				48731D582204509E00BDD196 /* greenbutton.png in Resources */,
+				48731D5C2204509E00BDD196 /* pinkbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +330,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48731D5021F9D8BA00BDD196 /* friendsViewController.swift in Sources */,
+				48731D4E21F9D8AC00BDD196 /* homeViewController.swift in Sources */,
 				4804851821C11A8500C1D46D /* secondViewController.swift in Sources */,
-				480484EA21C1180000C1D46D /* ViewController.swift in Sources */,
 				4804851A21C11AA200C1D46D /* thirdViewController.swift in Sources */,
 				480484E821C1180000C1D46D /* AppDelegate.swift in Sources */,
+				48731D5221F9D8C900BDD196 /* setupViewController.swift in Sources */,
 				4804851621C11A7600C1D46D /* firstViewController.swift in Sources */,
 				4804851D21C11C9200C1D46D /* myTableViewCell.swift in Sources */,
 			);

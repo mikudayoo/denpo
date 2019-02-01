@@ -33,7 +33,7 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット.png" translatesAutoresizingMaskIntoConstraints="NO" id="tUy-Zk-hWm">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tUy-Zk-hWm">
                         <rect key="frame" x="82" y="0.0" width="50" height="50"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -48,7 +48,4 @@
             <point key="canvasLocation" x="137.59999999999999" y="157.42128935532236"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="スクリーンショット.png" width="364" height="752"/>
-    </resources>
 </document>

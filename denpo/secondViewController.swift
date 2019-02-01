@@ -34,6 +34,7 @@ class secondViewController: UIViewController,UITableViewDelegate,UITableViewData
         super.viewWillAppear(true)
         if saveData.array(forKey: "INFO") != nil{
             infoArray = saveData.array(forKey: "INFO") as! [Dictionary<String, String>]
+            
         }
         table.reloadData()
     }
@@ -48,9 +49,10 @@ class secondViewController: UIViewController,UITableViewDelegate,UITableViewData
     //tableViewのセルの数を指定
     
     func tableView(_ tableView : UITableView, cellForRowAt indexpath:IndexPath) -> UITableViewCell{
-        let cell : UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for:indexpath) as! myTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for:indexpath) as! myTableViewCell
         let nowIndexPathDictionary = infoArray[indexpath.row]
-        cell.textLabel?.text = nowIndexPathDictionary["message"]
+        cell.messageLabel.text = nowIndexPathDictionary["message"]
+        cell.dayLabel.text = nowIndexPathDictionary["day"]
 //        cell.textLabel?.text = nowIndexPathDictionary["message"]
         // 一覧にでるのを名前にしてる
         return cell

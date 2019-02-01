@@ -34,10 +34,9 @@ class thirdViewController: UIViewController,UITextFieldDelegate {
         let infoDictionary = ["day":dayTextField.text!,
                               "message":messageTextField.text!]
         infoArray.append(infoDictionary)
-        
-        saveData.set(infoDictionary, forKey: "INFO")
+        saveData.set(infoArray, forKey: "INFO")
         //        saveData2.set(doneNumber,forKey:"number")
-        
+        print(saveData.array(forKey: "INFO"))
         self.dismiss(animated: true, completion: nil)
         
         dayTextField.text = ""
